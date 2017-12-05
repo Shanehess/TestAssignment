@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="password" value="Perfecto123"/>
+    <parameter name="host" value="ps.perfectomobile.com"/>
+    <parameter name="deviceName" value="1B85000BAE812624DADDE147FA792C42E164D2DD"/>
+    <parameter name="user" value="shaneh@perfectomobile.com"/>
+    <classes>
+      <class name="test.java.test.Example">
+        <methods>
+          <include name="Assignment3"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.java.test.Example -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
